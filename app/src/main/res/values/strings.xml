@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Listed</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="add_item">Add a new item...</string>
+    <string name="search_title">Search</string>
+    <string name="title_activity_edit_item">EditItemActivity</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_activity_add_item">Add to the List</string>
+    <string name="deleteItem">delete Item</string>
+
+    <string name="category_overview"> Title </string>
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+    <string name="hint_to_do"> Title </string>
+    <string name="hint_description">Description</string>
+    <string name="category_priority">Priority</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <!-- Label for dropdown menu option if the pet's gender is unknown [CHAR LIMIT=20] -->
+    <string name="priority_medium">Medium</string>
+
+    <!-- Label for dropdown menu option if the pet is male [CHAR LIMIT=20] -->
+    <string name="priority_high">High</string>
+
+    <!-- Label for dropdown menu option if the pet is female [CHAR LIMIT=20] -->
+    <string name="priority_low">Low</string>
+    <string name="title_activity_editor">Editor</string>
+    <string name="no_summaray"></string>
+    <string name="editor_activity_title_new_item">Add Things To Do</string>
+    <string name="editor_activity_title_edit_item">Edit Items </string>
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this Item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+</resources>
