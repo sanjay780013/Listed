@@ -1,4 +1,4 @@
-package com.codepath.listed;
+package com.codepath.listed.activities;
 
 import android.app.LoaderManager;
 import android.content.ContentUris;
@@ -18,6 +18,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.codepath.listed.adapters.ItemCursorAdapter;
+import com.codepath.listed.R;
 import com.codepath.listed.data.ListContract;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
@@ -127,7 +129,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 projection,             // The columns to return for each row
                 null,                   // Selection criteria
                 null,                   // Selection criteria
-                null);                  // The sort order for the returned rows
+                ListContract.ItemEntry.COLUMN_lIST_PRIOTITY+" DESC");                  // The sort order for the returned rows
+
     }
 
     @Override
